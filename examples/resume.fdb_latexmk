@@ -1,0 +1,18 @@
+# Fdb version 4
+["pdflatex"] 1731875731.45392 "e:/My-CV/wizardcell-cv/examples/resume.tex" "resume.pdf" "resume" 1731875732.1759 2
+  "awesome-cv.cls" 1731009815 17 f892d761743de59d7f5e7b4d4accd528 ""
+  "e:/My-CV/wizardcell-cv/examples/resume.tex" 1731875730 3953 81b4b10bc86030341505532fcb067b19 ""
+  "e:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1730947838 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "e:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1730946328 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
+  "e:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1730949409 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
+  "e:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1730940993 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
+  "e:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730953674 3343030 499249932ac868ad0be9554927db53c9 ""
+  "e:/texlive/2024/texmf.cnf" 1730953481 713 e69b156964470283e0530f5060668171 ""
+  "examples/resume/summary.tex" 0 -1 0 ""
+  "resume.aux" 1731875732 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "resume.tex" 1731875730 3953 81b4b10bc86030341505532fcb067b19 ""
+  (generated)
+  "resume.aux"
+  "resume.log"
+  "resume.pdf"
+  (rewritten before read)
