@@ -1,7 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1733453940.34733 "e:/My-CV/wizardcell-cv/src/resume.tex" "resume.pdf" "resume" 1733453941.15684 2
+["pdflatex"] 1733454152.98566 "e:/My-CV/wizardcell-cv/src/resume.tex" "resume.pdf" "resume" 1733454153.78677 2
   "../awesome-cv.cls" 1731878620 29998 eea0b1374c7475921a2df6f6b12258a0 ""
-  "awesome-cv.cls" 1731009815 17 f892d761743de59d7f5e7b4d4accd528 ""
   "e:/My-CV/wizardcell-cv/src/resume.tex" 1733453937 3843 3062f3e9dd507ffd7912f22e4c5e16c5 ""
   "e:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1730947838 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "e:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1730944330 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -35,7 +34,7 @@
   "e:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1730940993 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
   "e:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730953674 3343030 499249932ac868ad0be9554927db53c9 ""
   "e:/texlive/2024/texmf.cnf" 1730953481 713 e69b156964470283e0530f5060668171 ""
-  "resume.aux" 1733453940 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "resume.aux" 1733454152 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "resume.tex" 1733453937 3843 3062f3e9dd507ffd7912f22e4c5e16c5 ""
   (generated)
   "resume.aux"

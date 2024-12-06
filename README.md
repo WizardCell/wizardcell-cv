@@ -11,10 +11,10 @@
 </p>
 
 <div align="center">
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/src/resume.pdf">
-    <img alt="My CV" src="https://img.shields.io/badge/resume-pdf-green.svg" />
+  <a href="https://raw.githubusercontent.com/WizardCell/wizardcell-cv/master/src/mohammad-mossa-cv.pdf">
+    <img alt="WizardCell Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
   </a>
-  <!-- <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/src/coverletter.pdf">
+  <!-- <a href="https://raw.githubusercontent.com/WizardCell/wizardcell-cv/master/src/mohammad-mossa-coverletter.pdf">
     <img alt="My Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
   </a> -->
 </div>
