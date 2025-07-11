@@ -3,7 +3,6 @@
 %-------------------------------------------------------------------------------
 \cvsection{Work Experience}
 
-
 %-------------------------------------------------------------------------------
 %	CONTENT
 %-------------------------------------------------------------------------------
@@ -11,113 +10,80 @@
 
 %---------------------------------------------------------
   \cventry
-    {\href{https://www.thenewface.io/}{\underline{Immersive E-commerce Experiences}}} % Project title
-    {Generalist Programmer} % Position
-    {The New Face} % Organization, Location
-    {Jul 2024 - Present} % Date(s)
+    {\href{https://www.thenewface.io/}{\underline{Immersive E-commerce Experiences}}}
+    {Generalist Software Engineer – Cloud \& SDK Integration}
+    {The New Face (Remote)}
+    {Jul 2024 - Feb 2025}
     {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Resolved various \textbf{multiplayer-related bugs} caused by \textbf{race conditions}.}
-        \item {Addressed \textbf{matchmaking issues} that resulted from design flaws, ensuring players could successfully matchmake.}
-        \item {Updated the \textbf{GeForce Now SDK} to the latest version and fixed the \textbf{inbound messaging feature}, enabling clients to send messages to the GFN application.}
-        \item {Optimized the \textbf{action zones feature} for mobile devices, ensuring the virtual keyboard displays when focusing on an editable text box in GeForce Now.}
-        \item {Provided support for extra features that come with the GeForce Now SDK, and were not previously implemented.}
-        \item {Customized the \textbf{Common Loading Screen plugin}, originally from Lyra, to control the \textbf{Movie Player} according to our needs.}
-        \item {Automated the \textbf{integration process} of the GeForce Now SDK into our packaged builds, eliminating the need for manual intervention.}
-        \item {Adapted quickly to the \textbf{GeForce Developer Portal} and utilized \textbf{debug seats} to troubleshoot our experiences on the GFN platform.}
-        \item {Enhanced \textbf{testing inclusivity} by fine-tuning the client's GeForce Now SDK.}
-        \item {Refactored parts of our core \textbf{codebase} to improve \textbf{maintainability} and \textbf{scalability}.}
-        \item {Provided consultation on \textbf{design-related matters} for implementing new systems.}
-        \item {Upgraded the \textbf{engine} and associated \textbf{plugins} to the latest versions, ensuring compatibility with the GeForce Now SDK.}
+      \begin{cvitems}
+        \item {Resolved complex \textbf{cloud-side race conditions} in a distributed, multi-user environment, improving platform stability.}
+        \item {Addressed \textbf{session pairing inconsistencies} by identifying architectural flaws and proposing resilient solutions.}
+        \item {Upgraded and integrated the \textbf{NVIDIA GeForce Now SDK}, including restoring and validating messaging and communication systems.}
+        \item {Optimized input handling for mobile users, ensuring compatibility with virtual keyboards and platform constraints.}
+        \item {Automated SDK integration into build pipelines, eliminating manual steps in CI workflows.}
+        \item {Customized core plugin behavior to meet product requirements, particularly around loading and streaming user experiences.}
+        \item {Refactored major components of the codebase to improve \textbf{scalability}, readability, and developer onboarding.}
+        \item {Worked closely with \textbf{NVIDIA's developer portal} and related tools to troubleshoot deployment issues.}
+        \item {Provided cross-functional guidance on system design and SDK adoption.}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
-    {\href{https://wizardcell.com/about/lords-of-the-fallen}{\underline{Lords of The Fallen}}} % Project title with hyperlink and underline
-    {Junior Network Programmer} % Position
-    {HEXWORKS - CI Games} % Organization, Location
-    {Dec 2022 - Jun 2024} % Date(s)
+    {\href{https://wizardcell.com/about/lords-of-the-fallen}{\underline{Lords of The Fallen}}}
+    {Junior Software Engineer – Real-Time Systems}
+    {HEXWORKS - CI Games (Remote)}
+    {Dec 2022 - Jun 2024}
     {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Made the game work from the \textbf{networking perspective}, while dealing with numerous aspects of the game that include but are not limited to:
+      \begin{cvitems}
+        \item {Led the development of several real-time and distributed systems, including:
           \begin{itemize}
-            \item {\textbf{Matchmaking:}
+            \item {\textbf{Session Management:}
               \begin{itemize}
-                \item {Revamped our \textbf{Invasion Matchmaking System} while utilizing \textbf{Online Beacons}.}
-                \item {Provisioned a \textbf{Custom Matchmaking by Key System}.}
-                \item {Fixed our \textbf{Ping Calculation System}, ensuring clients are matchmade with good ping to the server.}
+                \item {Redesigned user pairing logic and latency-based matching using custom networking protocols.}
+                \item {Implemented event-specific access control with custom key logic.}
+                \item {Resolved latency and synchronization anomalies across client-server boundaries.}
               \end{itemize}
             }
-            \item {\textbf{Customization System:} Synchronized character customizations by \textbf{custom serialization \& compression} of data over the network to achieve atomic replication of data types unsupported by the Replication System.}
-            \item {\textbf{Save/Serialization System:} Fixed vague game breaking issues that were caused by improper serialization of game state.}
-            \item {\textbf{Gameplay Ability System:} Fixed several gameplay abilities not performing properly over the network, and made a few.}
-            \item {\textbf{Character Movement \& Animation:} Various Game \& Engine level fixes to enhance the way characters move and animate.}
-            \item {\textbf{Level Streaming:} Various Game \& Engine level fixes to ensure game state is synchronized and resilient against level streaming under harsh network conditions.}
-            \item {\textbf{Level Design:} Implemented level design oriented tools to \textbf{enhance the workflow} of the level design team.}
-            \item {\textbf{Audio:} Fixed countless audio bugs, where audio wasn't played properly across the network for all connections of interest.}
-            \item {\textbf{UI:}
-              \begin{itemize}
-                \item {Fixed visually breaking issues with different in-game menus, and handled a bunch of memory leaks.}
-                \item {Provisioned a dedicated, self-contained \textbf{multiplayer settings menu}.}
-                \item {Provisioned \textbf{user-facing text localization}.}
-              \end{itemize}
-            }
+            \item {\textbf{Data Serialization}: Engineered and optimized serialization of complex data types for reliable synchronization.}
+            \item {\textbf{System Sync}: Improved state consistency for dynamic content loading, user movement, persistence, and user interface.}
+            \item {\textbf{Diagnostics}: Developed automated tools to detect redundant data synchronization and reduce unnecessary network traffic.}
           \end{itemize}
         }
-        \item {Profiling and optimizing game's \textbf{network bandwidth} using \textbf{Networking Insights:}
-        \begin{itemize}
-          \item {Effectively identified and disabled replication on many Objects and properties that didn't need it.}
-          \item {Effectively skipped data replication for connections that were able to conclude that data from elsewhere.}
-          \item {Utilized \textbf{Oodle Network} plugin to manually compress serialized network data for improved player experience.}
-          \item {Seamlessly moved bandwidth-unfriendly data to Objects that replicate less frequently, and persist longer.}
-        \end{itemize}
-        }
-        \item {Profiling and optimizing game's \textbf{server CPU performance} usage using \textbf{Timing Insights}.}
-        \item {Provisioned editor tools, that simplified and enhanced my workflow:
-        \begin{itemize}
-          \item {Made a simple editor tool that scans all our project's Blueprint assets, and inclusively finds potentially optimizable replicating Objects.}
-          \item {Made a simple editor tool that triggers serialization on Blueprint assets, so that references to Gameplay Attributes can be seen in the reference viewer, to better understand how to optimize their owning Attribute Sets.}
-        \end{itemize}
-        }
+        \item {Utilized performance analysis and data compression tools to optimize bandwidth and CPU usage.}
+        \item {Proposed and implemented architectural changes that improved \textbf{server scalability} and reduced data synchronization overhead.}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
-    {\href{https://wizardcell.com/about/bulletville}{\underline{BulletVille}}} % Project title
-    {Junior Programmer} % Position
-    {NOWWA} % Organization, Location
-    {Jan 2022 - May 2022} % Date(s)
+    {\href{https://wizardcell.com/about/bulletville}{\underline{BulletVille}}}
+    {Software Engineering Intern – Systems \& Tooling}
+    {NOWWA (Remote)}
+    {Jan 2022 - May 2022}
     {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Implemented a \textbf{game-mode based Spectating System}.}
-        \item {Implemented \textbf{Killcam System} for instant replays.}
-        \item {Collaborated with the design team to implement and refine game features based on playtesting and user feedback.}
-        \item {Contributed to building the project's \textbf{Style Guide} and helped organizing its hierarchy.}
+      \begin{cvitems}
+        \item {Developed modular systems for camera spectator and replay, aligned with user testing feedback.}
+        \item {Supported internal documentation and style guide creation to improve \textbf{code maintainability}.}
+        \item {Contributed to user interface logic and system configuration layers.}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
-  \cventry
-    {\href{https://wizardcell.com/about/anarea}{\underline{Anarea Battle Royale}}} % Project title
-    {Novice Gameplay Programmer} % Position
-    {AXC Games} % Organization, Location
-    {Jul 2019 - Aug 2020} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Implemented \textbf{Multizone Spawn System} inspired by the one in Ring of Elysium.}
-        \item {Implemented \textbf{Loot Randomizer System}.}
-        \item {Developed an \textbf{Inventory System} to manage player items and equipment.}
-        \item {Created and optimized various \textbf{gameplay mechanics}, including player movement, shooting, and health systems.}
-        \item {Integrated third-party \textbf{APIs} for analytics and player feedback.}
-        \item {Collaborated with the \textbf{design team} to implement and refine game features based on playtesting and user feedback.}
-        \item {Worked on \textbf{network synchronization} to ensure smooth multiplayer gameplay.}
-        \item {Assisted in \textbf{debugging} and resolving performance issues to enhance game stability and performance.}
-        \item {Participated in \textbf{code reviews} and provided constructive feedback to improve code quality and maintainability.}
-        \item {Contributed to the development of the game's \textbf{user interface}, including HUD elements and menus.}
-      \end{cvitems}
-    }
+  % \cventry
+  %   {\href{https://wizardcell.com/about/anarea}{\underline{Anarea Battle Royale}}}
+  %   {Software Engineering Intern – Backend \& Client Sync}
+  %   {AXC Games (Remote)}
+  %   {Jul 2019 - Aug 2020}
+  %   {
+  %     \begin{cvitems}
+  %       \item {Designed core subsystems for resource management, inventory, movement, and state models.}
+  %       \item {Integrated telemetry and analytics through third-party APIs.}
+  %       \item {Resolved synchronization issues to ensure seamless multi-user experiences.}
+  %       \item {Participated in team-wide debugging and code review processes.}
+  %     \end{cvitems}
+  %   }
 
 %---------------------------------------------------------
 \end{cventries}
+\needspace{6\baselineskip}
