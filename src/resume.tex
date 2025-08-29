@@ -20,6 +20,10 @@
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
 
+\usepackage{needspace}
+\usepackage{etoolbox}
+\pretocmd{\cvsection}{\vspace{1em}}{}{}
+
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
@@ -98,13 +102,13 @@
 \input{src/resume/summary.tex}
 \input{src/resume/experience.tex}
 \input{src/resume/skills.tex}
-%\input{src/resume/honors.tex}
 %\input{src/resume/certificates.tex}
 % \input{src/resume/presentation.tex}
 % \input{src/resume/writing.tex}
 % \input{src/resume/committees.tex}
 \input{src/resume/education.tex}
 \input{src/resume/projects.tex}
+\input{src/resume/honors.tex}
 \input{src/resume/other.tex}
 % \input{src/resume/extracurricular.tex}
 

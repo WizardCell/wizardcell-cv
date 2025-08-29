@@ -1,0 +1,14 @@
+# Fdb version 4
+["pdflatex"] 1756468536.40947 "e:/My-CV/wizardcell-cv/src/resume.tex" "resume.pdf" "resume" 1756468537.20124 2
+  "awesome-cv.cls" 0 -1 0 ""
+  "e:/My-CV/wizardcell-cv/src/resume.tex" 1756468533 3975 c1fe599a78101a26538c5d04f2bcec12 ""
+  "e:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1730940993 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
+  "e:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730953674 3343030 499249932ac868ad0be9554927db53c9 ""
+  "e:/texlive/2024/texmf.cnf" 1730953481 713 e69b156964470283e0530f5060668171 ""
+  "resume.aux" 1756468536 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "resume.tex" 1756468533 3975 c1fe599a78101a26538c5d04f2bcec12 ""
+  (generated)
+  "resume.aux"
+  "resume.log"
+  "resume.pdf"
+  (rewritten before read)
