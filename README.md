@@ -11,10 +11,10 @@
 </p>
 
 <div align="center">
-  <a href="https://raw.githubusercontent.com/WizardCell/wizardcell-cv/master/src/mohammad-mossa-cv.pdf">
+  <a href="https://github.com/WizardCell/wizardcell-cv/blob/gamedev/Mohammad_Mossa_Resume.pdf">
     <img alt="WizardCell Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
   </a>
-  <!-- <a href="https://raw.githubusercontent.com/WizardCell/wizardcell-cv/master/src/mohammad-mossa-coverletter.pdf">
+  <!-- <a href="https://github.com/WizardCell/wizardcell-cv/blob/gamedev/Mohammad_Mossa_CoverLetter.pdf">
     <img alt="My Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
   </a> -->
 </div>
