@@ -11,7 +11,7 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/WizardCell/wizardcell-cv/blob/gamedev/Mohammad_Mossa_Resume.pdf">
+  <a href="https://github.com/WizardCell/wizardcell-cv/blob/gamedev/Mohammad_Mossa_Resume_Gamedev.pdf">
     <img alt="WizardCell Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
   </a>
   <!-- <a href="https://github.com/WizardCell/wizardcell-cv/blob/gamedev/Mohammad_Mossa_CoverLetter.pdf">

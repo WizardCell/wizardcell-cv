@@ -10,6 +10,25 @@
 
 %---------------------------------------------------------
   \cventry
+    {Unannounced IP} % Project title
+    {Senior Gameplay Programmer} % Job title
+    {Twisted Time Studios} % Organization
+    {Aug 2025 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {\textbf{System Architecture:} Engineered a modular, data-driven \textbf{Building System} from the ground up. Implemented complex grid-snapping and robust \textbf{placement validation rules} utilizing polymorphic \textbf{instanced structs} for maximum flexibility.}
+        \item {\textbf{Gameplay Ability System (GAS):} Architected comprehensive multiplayer-ready abilities, including \textbf{montage-driven attacks} with damage registration, vaulting, parry, stagger, and AoE buffs, ensuring robust integration with our \textbf{animation pooling system}.}
+        \item {\textbf{Ranged Combat \& Throwables:} Engineered advanced bow mechanics featuring state-driven reload-to-charge animation blending and a modular ammo management system, alongside throwable weapons, fully integrated with our collision interaction, gameplay cue, and animation pool systems.}
+        \item {\textbf{Combat \& Collision Mechanics:} Refactored hit detection into flexible filter criteria and built an \textbf{Object Responses System} that translates physical material interactions into custom data-driven actions (VFX/SFX).}
+        \item {\textbf{Hazards \& Consumables:} Engineered a component-encapsulated trap system utilizing fixed-interval tracing to bypass overlap unreliability, delivering stackable status effects (e.g., stuns, camera manipulation, and burn). Developed a diverse consumable system (potions for speed, jump, and invulnerability) featuring dynamic state-resolution logic, such as healing items actively cancelling fire debuff stacks.}
+        \item {\textbf{Multiplayer Replication:} Ensured reliable client-server synchronization across dynamic destruction VFX, projectile arcs, and state-driven scenario actors (e.g., interactive puzzles and wave manager gates).}
+        \item {\textbf{Event-Driven Feedback \& Optimization:} Engineered a decoupled \textbf{Gameplay Cue and Animation Pooling system} utilizing semantic tags to trigger context-specific, polymorphic responses (e.g., organic vs. structural damage), efficiently handling high-frequency burst events.}
+        \item {\textbf{Pipeline Standardization \& Tooling:} Standardized the \textbf{combat integration pipeline}, establishing a unified framework for weapon traces, collision rules, and animation data that drastically reduced the setup and iteration time for new gameplay items.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
     {\href{https://www.thenewface.io/}{\underline{Immersive E-commerce Experiences}}}
     {Generalist Software Engineer}
     {The New Face (Remote)}
@@ -17,70 +36,58 @@
     {
       \begin{cvitems}
         \item {Resolved complex \textbf{cloud-side race conditions} in a distributed, multi-user environment, improving platform stability.}
-        \item {Addressed \textbf{session pairing inconsistencies} by identifying architectural flaws and proposing resilient solutions.}
+        \item {Customized the \textbf{Common Loading Screen} plugin (originally from Lyra) to manage asynchronous loading and \textbf{Movie Player} logic.}
         \item {Upgraded and integrated the \textbf{NVIDIA GeForce Now SDK}, including restoring and validating messaging and communication systems.}
-        \item {Optimized input handling for mobile users, ensuring compatibility with virtual keyboards and platform constraints.}
-        \item {Automated SDK integration into build pipelines, eliminating manual steps in CI workflows.}
-        \item {Customized core plugin behavior to meet product requirements, particularly around loading and streaming user experiences.}
+        \item {Optimized input handling for mobile users, ensuring compatibility with virtual keyboards and platform-specific constraints.}
+        \item {Automated SDK integration into build pipelines, eliminating manual steps in \textbf{CI workflows}.}
         \item {Refactored major components of the codebase to improve \textbf{scalability}, readability, and developer onboarding.}
-        \item {Worked closely with \textbf{NVIDIA's developer portal} and related tools to troubleshoot deployment issues.}
-        \item {Provided cross-functional guidance on system design and SDK adoption.}
+        \item {Worked closely with \textbf{NVIDIA's developer portal} and related tools to troubleshoot deployment and streaming issues.}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
     {\href{https://wizardcell.com/about/lords-of-the-fallen}{\underline{Lords of The Fallen}}}
-    {Junior Software Engineer}
-    {CI Games (Remote)}
+    {Junior Network Programmer}
+    {HEXWORKS — CI Games (Remote)}
     {Dec 2022 - Jun 2024}
     {
       \begin{cvitems}
-        \item {Led the development of several real-time and distributed systems, including:
-          \begin{itemize}
-            \item {\textbf{Session Management:}
-              \begin{itemize}
-                \item {Redesigned user pairing logic and latency-based matching using custom networking protocols.}
-                \item {Implemented event-specific access control with custom key logic.}
-                \item {Resolved latency and synchronization anomalies across client-server boundaries.}
-              \end{itemize}
-            }
-            \item {\textbf{Data Serialization}: Engineered and optimized serialization of complex data types for reliable synchronization.}
-            \item {\textbf{System Sync}: Improved state consistency for dynamic content loading, user movement, persistence, and user interface.}
-            \item {\textbf{Diagnostics}: Developed automated tools to detect redundant data synchronization and reduce unnecessary network traffic.}
-          \end{itemize}
-        }
-        \item {Utilized performance analysis and data compression tools to optimize bandwidth and CPU usage.}
-        \item {Proposed and implemented architectural changes that improved \textbf{server scalability} and reduced data synchronization overhead.}
+        \item {Led the development of several real-time and distributed systems, focusing on \textbf{matchmaking} and \textbf{network synchronization}.}
+        \item {\textbf{Matchmaking:} Revamped our Invasion Matchmaking System using \textbf{Online Beacons} and provisioned a Custom Matchmaking by Key system.}
+        \item {\textbf{Data Serialization:} Engineered custom serialization and compression for complex data types to achieve atomic replication of types unsupported by the standard system.}
+        \item {\textbf{GAS:} Developed and debugged multiplayer-ready abilities within the \textbf{Gameplay Ability System}, resolving networking edge cases.}
+        \item {\textbf{System Sync:} Improved state consistency for dynamic content loading, ensuring resilience against \textbf{Level Streaming} under harsh network conditions.}
+        \item {\textbf{Diagnostics \& Optimization:} Minimized network overhead by profiling bandwidth with \textbf{Networking Insights}, leveraging \textbf{Oodle} for data compression, and building \textbf{Editor tools} to automatically detect and eliminate redundant Blueprint replication.}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
     {\href{https://wizardcell.com/about/bulletville}{\underline{BulletVille}}}
-    {Software Engineering Intern}
+    {Junior Programmer}
     {NOWWA (Remote)}
     {Jan 2022 - May 2022}
     {
       \begin{cvitems}
-        \item {Developed modular systems for camera spectator and replay, aligned with user testing feedback.}
-        \item {Supported internal documentation and style guide creation to improve \textbf{code maintainability}.}
-        \item {Contributed to user interface logic and system configuration layers.}
+        \item {Developed modular \textbf{Spectating} and \textbf{Killcam} systems for instant replays, aligned with user testing feedback.}
+        \item {Collaborated with the design team to refine gameplay features and UI logic based on iterative playtesting.}
+        \item {Supported internal documentation and style guide creation to improve long-term \textbf{code maintainability}.}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
     {\href{https://wizardcell.com/about/anarea}{\underline{Anarea Battle Royale}}}
-    {Software Engineering Intern}
+    {Novice Gameplay Programmer}
     {AXC Games (Remote)}
     {Jul 2019 - Aug 2020}
     {
       \begin{cvitems}
-        \item {Designed core subsystems for resource management, inventory, movement, and state models.}
-        \item {Integrated telemetry and analytics through third-party APIs.}
-        \item {Resolved synchronization issues to ensure seamless multi-user experiences.}
-        \item {Participated in team-wide debugging and code review processes.}
+        \item {Implemented a \textbf{Multizone Spawn System} and a \textbf{Loot Randomizer System} to handle large-scale item distribution.}
+        \item {Designed core subsystems for resource management, inventory, and character state models.}
+        \item {Integrated telemetry and analytics through third-party APIs to monitor player behavior.}
+        \item {Resolved synchronization issues to ensure a seamless multi-user experience in a competitive environment.}
       \end{cvitems}
     }
 
